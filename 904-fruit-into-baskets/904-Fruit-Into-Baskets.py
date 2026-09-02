@@ -1,34 +1,32 @@
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
 
-        i,j =0,0
-        n= len(fruits)
-        hash_map = dict()
-        sum_ = 0
-        max_ = 0
-        
-        for j in range(n):
+        i=0
+        dict_fruits = dict()
+        max_fruits = 0
 
-            hash_map[fruits[j]] = hash_map.get(fruits[j], 0) +1 #**imp**
+        for j in range(len(fruits)):
 
-            #inner while runs till condition is invalid
-            while len(hash_map) > 2:
+            dict_fruits[fruits[j]] = dict_fruits.get(fruits[j], 0) + 1 
 
-                #reducing the count from left
-                hash_map[fruits[i]] = hash_map[fruits[i]] - 1 #**imp**
-                
-                #now deleting the key+value if the value of the key i is 0
-                if hash_map[fruits[i]] == 0:
-                    del hash_map[fruits[i]] #**imp**
+            while len(dict_fruits) > 2:
+
+                dict_fruits[fruits[i]] -=1
+
+                if dict_fruits[fruits[i]] == 0:
+                    dict_fruits.pop(fruits[i], None) #**imp**
+
                 i+=1
 
-            sum_ = sum(hash_map.values()) #**imp**
-            max_ = max(max_, sum_)
+            #max_fruits = max(max_fruits, sum(dict_fruits.values()))
+            max_fruits = max(max_fruits, j-i+1) #******** imp *******
 
-        return max_
-    
+        return max_fruits
 
-# do revise all the hashma addding deleting checking code here **imp**
+
+
+
+# do revise all the hashmap addding deleting checking code here **imp**
 # **imp**
 
         
