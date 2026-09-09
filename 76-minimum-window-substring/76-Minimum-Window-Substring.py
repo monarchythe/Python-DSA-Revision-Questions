@@ -38,13 +38,13 @@ class Solution:
         
 
         
+#how to add and pop from STRING - IMMUTABLE- 
+#slicing : s[start : start+min_l]
 
+#how to compare 2 dictonary? :
+# while all(dict_s.get(c,0) >= dict_t[c] for c in dict_t): 
 
-        
-
-
-#how to add and pop from STRING - IMMUTABLE- slicing
-#how to compare dict for looping ....
+# there is a better way to do that, but if the goal is SPACE COMPLEXITY - MINIMUM , then this solution Beats 99.18 % SOLUTIONS !!!!!!!!!!!!
 
 
 
