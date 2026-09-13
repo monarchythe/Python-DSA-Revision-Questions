@@ -41,3 +41,15 @@ we did ✅ 3, 76, 209, 424, 904, 1004, 1493 then -
 - 713 — Subarray Product Less Than K — "count valid windows" variant, product instead of sum. Trickier: how you count matters.
 - 2958 — Longest Subarray With At Most K Frequency — direct extension of LC 904 (limit on freq instead of distinct types)
 - 1438 — Longest Continuous Subarray With Abs Diff ≤ Limit — variable-width but needs a monotonic deque to track min/max efficiently. This is the hardest !
+
+#### Always remeber 
+
+     for longest / largest / maximest  - WINDOW : we will :
+     use inner while loop tp shrink the window till the  condition remains invalid
+     and record lenght outside the inner loop
+     squeeez the window untill it is valid
+
+     for smallest / minimest - WINDOW : we will :
+     use inner while loop tp shrink the window till the  condition remains valid
+     and record lenght inside the inner loop 
+     squeeez the window untill it breaks/is invalid
