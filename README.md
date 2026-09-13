@@ -28,6 +28,8 @@ After practicing DSA from Strivers sheet, I am making this repo for me to revise
 - 2958 Length of Longest Subarray With at Most K Frequency
 
 
+we did ✅ 3, 76, 209, 424, 904, 1004, 1493 then - 
+
 ### Category Fixed-width (3):
 
 - 1456 — Max Vowels
