@@ -26,3 +26,16 @@ After practicing DSA from Strivers sheet, I am making this repo for me to revise
 - 2461 Maximum Sum of Distinct Subarrays With Length K
 
 - 2958 Length of Longest Subarray With at Most K Frequency
+
+
+### Category Fixed-width (3):
+
+- 1456 — Max Vowels
+- 1343 — Subarrays of Size K with Avg ≥ Threshold — trivial variant of 1456, just check sum/k >= threshold
+- 2461 — Max Sum of Distinct Subarrays of Length K — fixed-width + hashmap to track distinctness
+
+### Variable-width (3) — different tracking logic each time:
+
+- 713 — Subarray Product Less Than K — "count valid windows" variant, product instead of sum. Trickier: how you count matters.
+- 2958 — Longest Subarray With At Most K Frequency — direct extension of LC 904 (limit on freq instead of distinct types)
+- 1438 — Longest Continuous Subarray With Abs Diff ≤ Limit — variable-width but needs a monotonic deque to track min/max efficiently. This is the hardest !
