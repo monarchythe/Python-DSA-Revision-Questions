@@ -4,6 +4,7 @@
 ### Core (must do — 6):
 
 - 125 Valid Palindrome — warmup, opposite-ends pattern
+- 392 Is Subsequence
 - 167 Two Sum II — sorted array, opposite-ends
 - 11 Container With Most Water — greedy shrink decision
 - 15 3Sum — the classic, teaches sort + fix + two-pointer
@@ -17,6 +18,7 @@
 ### Skip / low value:
 
 - 344 Reverse String — too trivial, done in 2 min, no learning
+- 392. Is Subsequence - stupid fuck 
 - 455 Assign Cookies — greedy, not really two-pointer
 - 18 4Sum — just 3Sum with an extra loop, learn nothing new after 15
 - 1679 Max Number of K-Sum Pairs — hashmap problem, not two-pointer
