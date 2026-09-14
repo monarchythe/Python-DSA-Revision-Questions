@@ -1,7 +1,7 @@
 
 # The 2 pointer Pattern has below questions 
 
-### Core (must do — 6):
+### Core (must do — 7):
 
 - 125 Valid Palindrome — warmup, opposite-ends pattern
 - 392 Is Subsequence
